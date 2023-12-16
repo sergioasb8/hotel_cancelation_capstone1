@@ -1,10 +1,10 @@
 import requests
 
 data = {
-    'lead_time':39,
+    'lead_time':106,
     'arrival_year':2019,
     'avg_price_per_room':102.12,
-    'no_of_special_requests':2,
+    'no_of_special_requests':1,
     'market_segment_type':1,
 }
 
