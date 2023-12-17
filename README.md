@@ -180,7 +180,7 @@ Explained it looks like this
 
 2. Click in ***New*** and select the option Web service.
 
-![Alt text](image.png)
+![Alt text](./images/image.png)
 
 3. Select the option to Deploy an existing image from a registry.
 
