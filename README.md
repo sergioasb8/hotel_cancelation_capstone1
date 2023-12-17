@@ -184,24 +184,24 @@ Explained it looks like this
 
 3. Select the option to Deploy an existing image from a registry.
 
-![Alt text](image-3.png)
+![Alt text](./images/image-3.png)
 
 
 4. Copy and paste the url of your docker image. It should look like this ***https://hub.docker.com/r/sergioasb8/hotel-cancelation***
 
-![Alt text](image-1.png)
+![Alt text](./images/image-1.png)
 
 Click ***Next***.
 
 5. Select the options tha better fit your project.
 
-![Alt text](image-2.png)
+![Alt text](./images/image-2.png)
 
 Click ***Create web service***.
 
 If everything is working correctly Render will show a view like this one
 
-![Alt text](image-4.png)
+![Alt text](./images/image-4.png)
 
 
 ## Use the cloud service
@@ -216,7 +216,7 @@ There are two recommended options to use the cloud services.
     python3 test_cloud_service.py
 ```
 
-![Alt text](image-5.png)
+![Alt text](./images/image-5.png)
 
 
 ### Using the notebook 05_test_services.ipynb
@@ -244,7 +244,7 @@ Using a Jupyter Notebook is recommended since it allows to see the output after 
 6. Make the request
 
 
-![Alt text](image-6.png)
+![Alt text](./images/image-6.png)
 
 Also use the notebook [05_test_services.ipynb](https://github.com/sergioasb8/hotel_cancelation_capstone1/blob/main/notebooks/05_test_services.ipynb) to check how to use the service.
 
