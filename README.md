@@ -206,12 +206,45 @@ If everything is working correctly Render will show a view like this one
 
 ## Use the cloud service
 
-### Setup
+There are two recommended options to use the cloud services.
+
+### In the terminal
+
+1. Move to the folder where is the project and type 
+
+```bash
+    python3 test_cloud_service.py
+```
+
+![Alt text](image-5.png)
 
 
+### Using the notebook 05_test_services.ipynb
 
-### Make a request to the deployed service
+Using a Jupyter Notebook is recommended since it allows to see the output after a cell is run.
+
+1. check the kernel already have installed **requests**.
+
+```python
+    !pip3 freeze
+```
+
+2. If requests does not apear on the list of installed libraries type
+
+```python
+    !pip3 install requests
+```
+
+3. Import requests
+
+4. Create a json with all the required info to make a prediction
+
+5. Define the url to the deployed service
+
+6. Make the request
 
 
+![Alt text](image-6.png)
 
+Also use the notebook [05_test_services.ipynb](https://github.com/sergioasb8/hotel_cancelation_capstone1/blob/main/notebooks/05_test_services.ipynb) to check how to use the service.
 
